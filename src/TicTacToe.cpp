@@ -7,6 +7,14 @@ int main()
   std::string board[3][3] = {{"1", "2", "3"}, {"4", "5", "6"}, {"7", "8", "9"}};
   displayBoard(board);
 
-  makeMove(board);
-  displayBoard(board);
+  while (true)
+  {
+    makeMove(board);
+    displayBoard(board);
+    if (hasAPlayerWon(board))
+    {
+      std::cout << "You win!\n";
+      break;
+    }
+  }
 }
