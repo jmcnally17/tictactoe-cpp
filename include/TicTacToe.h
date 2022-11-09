@@ -1,1 +1,1 @@
-void displayBoard();
+void displayBoard(std::string board[3][3]);
