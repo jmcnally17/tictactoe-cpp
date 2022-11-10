@@ -15,7 +15,7 @@ void play(std::string board[3][3])
     }
     else if (hasBoardBeenFilled(board))
     {
-      std::cout << "It's a draw!\n";
+      std::cout << "\nIt's a draw!\n";
       break;
     }
   }

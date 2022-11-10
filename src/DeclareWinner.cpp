@@ -2,5 +2,5 @@
 
 void declareWinner(int playerTurn)
 {
-  (playerTurn == 1) ? std::cout << "Player 2 wins!\n" : std::cout << "Player 1 wins!\n";
+  (playerTurn == 1) ? std::cout << "\nPlayer 2 wins!\n" : std::cout << "\nPlayer 1 wins!\n";
 }

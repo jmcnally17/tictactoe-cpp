@@ -4,7 +4,7 @@ bool playAgain()
 {
   while (true)
   {
-    std::cout << "Enter p to play again, e to exit:\n";
+    std::cout << "\nEnter p to play again, e to exit:\n";
     std::string option;
     std::cin >> option;
 

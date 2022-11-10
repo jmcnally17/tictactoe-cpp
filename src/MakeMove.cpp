@@ -44,6 +44,6 @@ void makeMove(std::string board[3][3], int &playerTurn)
   }
   else
   {
-    std::cout << "Invalid input\n";
+    std::cout << "Invalid input!\n";
   }
 }
