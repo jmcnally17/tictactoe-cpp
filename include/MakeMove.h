@@ -1,3 +1,1 @@
-void makeXMove(std::string board[3][3], int &playerTurn);
-
-void makeOMove(std::string board[3][3], int &playerTurn);
+void checkIfCellIsValid(std::string board[3][3], int a, int b, int &playerTurn);
