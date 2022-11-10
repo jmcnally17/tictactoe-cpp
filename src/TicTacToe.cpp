@@ -5,11 +5,13 @@ int main()
 {
   std::cout << "Welcome to tic-tac-toe!\n\n";
   std::string board[3][3] = {{"1", "2", "3"}, {"4", "5", "6"}, {"7", "8", "9"}};
+  int playerTurn = 1;
+
   displayBoard(board);
 
   while (true)
   {
-    makeMove(board);
+    makeMove(board, playerTurn);
     displayBoard(board);
     if (hasAPlayerWon(board))
     {
