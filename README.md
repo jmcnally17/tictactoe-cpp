@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-This project is an attempt at making a game of tic-tac-toe in C++ that can be run in the terminal.
+This project is an attempt at making a game of tic-tac-toe in C++ that can be run in the terminal. I have structured the folder directory in accordance with what I have researched about standard practice for C++ projects. The [src](https://github.com/jmcnally17/tic-tac-toe/tree/main/src) folder contains all .cpp files while the [include](https://github.com/jmcnally17/tic-tac-toe/tree/main/include) folder contains all my header files. Finally, the [bin](https://github.com/jmcnally17/tic-tac-toe/tree/main/bin) folder contains the executable [tictactoe.out](https://github.com/jmcnally17/tic-tac-toe/blob/main/bin/tictactoe.out) file.
 
 ## Getting Started
 
@@ -19,3 +19,7 @@ You will need to execute the [tictactoe.out](https://github.com/jmcnally17/tic-t
 ```
 
 and the game should run in your terminal.
+
+## Testing
+
+I'm currently looking at getting a testing framework set up.
