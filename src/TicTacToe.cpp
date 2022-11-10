@@ -5,10 +5,9 @@ int main()
 {
   std::cout << "Welcome to tic-tac-toe!\n\n";
   std::string board[3][3] = {{"1", "2", "3"}, {"4", "5", "6"}, {"7", "8", "9"}};
-  int playerTurn = 1;
-
   displayBoard(board);
 
+  int playerTurn = 1;
   while (true)
   {
     makeMove(board, playerTurn);
@@ -24,4 +23,9 @@ int main()
       break;
     }
   }
+
+  bool playAgain = false;
+  chooseToPlayAgain(playAgain);
+  if (playAgain)
+    main();
 }
