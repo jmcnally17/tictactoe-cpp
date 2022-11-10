@@ -15,7 +15,7 @@ int main()
     displayBoard(board);
     if (hasAPlayerWon(board))
     {
-      std::cout << "You win!\n";
+      declareWinner(playerTurn);
       break;
     }
     else if (hasBoardBeenFilled(board))
