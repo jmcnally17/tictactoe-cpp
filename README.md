@@ -9,7 +9,7 @@ Upon loading the game, the players will be met with an interface that displays t
 </p>
 
 <p align="center">
-  <b>Fig.1 -</b> A screenshot of some example output from the program. Initially, the game starts with a welcome message before asking the player to choose a cell. The player then choose cell number 1, which updates the board by placing X in the topleft cell.
+  <b>Fig.1 -</b> A screenshot of some example output from the program. Initially, the game starts with a welcome message before asking the player to choose a cell. The player then chooses cell number 1, which updates the board by placing X in the topleft cell.
 </p>
 
 ## Getting Started
