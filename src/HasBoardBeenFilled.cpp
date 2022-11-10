@@ -11,9 +11,5 @@ bool hasBoardBeenFilled(std::string board[3][3])
   bool condition7 = board[2][0] != "7";
   bool condition8 = board[2][1] != "8";
   bool condition9 = board[2][2] != "9";
-  if (condition1 && condition2 && condition3 && condition4 && condition5 && condition6 && condition7 && condition8 && condition9)
-  {
-    return true;
-  }
-  return false;
+  return (condition1 && condition2 && condition3 && condition4 && condition5 && condition6 && condition7 && condition8 && condition9);
 }
