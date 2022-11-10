@@ -1,15 +1,10 @@
 #include <iostream>
+#include "../include/FillCell.h"
 
 void fillCell(std::string board[3][3], int a, int b, int &playerTurn)
 {
   if (playerTurn == 1)
-  {
-    board[a][b] = "X";
-    playerTurn++;
-  }
+    fillCellX(board, a, b, playerTurn);
   else
-  {
-    board[a][b] = "O";
-    playerTurn--;
-  }
+    fillCellO(board, a, b, playerTurn);
 }
