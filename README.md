@@ -4,6 +4,14 @@ This project is an attempt at making a game of tic-tac-toe in C++ that can be ru
 
 Upon loading the game, the players will be met with an interface that displays the board with each cell numbered 1-9. The two players will alternate turns where they must enter a number from 1-9 in the terminal in order to put X or O in a cell of their choosing. Once a player has won or the game has ended in a draw, the interface will ask the players if they would like to play again or exit the program.
 
+<p align="center">
+  <img src="./tictactoe-output.png" width="55%">
+</p>
+
+<p align="center">
+  <b>Fig.1 -</b> A screenshot of some example output from the program. Initially, the game starts with a welcome message before asking the player to choose a cell. The player then choose cell number 1, which updates the board by placing X in the topleft cell.
+</p>
+
 ## Getting Started
 
 Start by cloning this repository using:
