@@ -3,7 +3,7 @@
 void makeXMove(std::string board[3][3], int &playerTurn)
 {
   int cell;
-  std::cout << "Player 1, please pick a cell from 1 to 9\n";
+  std::cout << "Player 1, please pick a cell from 1 to 9:\n";
   std::cin >> cell;
   switch (cell)
   {
