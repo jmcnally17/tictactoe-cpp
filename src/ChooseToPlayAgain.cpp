@@ -1,6 +1,6 @@
 #include <iostream>
 
-void chooseToPlayAgain(bool &playAgain)
+bool chooseToPlayAgain()
 {
   while (true)
   {
@@ -10,13 +10,12 @@ void chooseToPlayAgain(bool &playAgain)
 
     if (option == "p")
     {
-      playAgain = true;
-      break;
+      return true;
     }
     else if (option == "e")
     {
       std::cout << "Thank you for playing tic-tac-toe\n";
-      break;
+      return false;
     }
     else
     {

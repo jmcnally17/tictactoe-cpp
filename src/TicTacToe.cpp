@@ -8,8 +8,6 @@ int main()
   displayBoard(board);
   play(board);
 
-  bool playAgain = false;
-  chooseToPlayAgain(playAgain);
-  if (playAgain)
+  if (chooseToPlayAgain())
     main();
 }
