@@ -8,40 +8,103 @@ void makeOMove(std::string board[3][3], int &playerTurn)
   switch (cell)
   {
   case 1:
-    board[0][0] = "O";
-    playerTurn--;
+    if (board[0][0] != "X" && board[0][0] != "O")
+    {
+      board[0][0] = "O";
+      playerTurn--;
+    }
+    else
+    {
+      std::cout << "That cell is already taken!\n";
+    }
     break;
   case 2:
-    board[0][1] = "O";
-    playerTurn--;
+    if (board[0][1] != "X" && board[0][1] != "O")
+    {
+      board[0][1] = "O";
+      playerTurn--;
+    }
+    else
+    {
+      std::cout << "That cell is already taken!\n";
+    }
     break;
   case 3:
-    board[0][2] = "O";
-    playerTurn--;
+    if (board[0][2] != "X" && board[0][2] != "O")
+    {
+      board[0][2] = "O";
+      playerTurn--;
+    }
+    else
+    {
+      std::cout << "That cell is already taken!\n";
+    }
     break;
   case 4:
-    board[1][0] = "O";
-    playerTurn--;
+    if (board[1][0] != "X" && board[1][0] != "O")
+    {
+      board[1][0] = "O";
+      playerTurn--;
+    }
+    else
+    {
+      std::cout << "That cell is already taken!\n";
+    }
     break;
   case 5:
-    board[1][1] = "O";
-    playerTurn--;
+    if (board[1][1] != "X" && board[1][1] != "O")
+    {
+      board[1][1] = "O";
+      playerTurn--;
+    }
+    else
+    {
+      std::cout << "That cell is already taken!\n";
+    }
     break;
   case 6:
-    board[1][2] = "O";
-    playerTurn--;
+    if (board[1][2] != "X" && board[1][2] != "O")
+    {
+      board[1][2] = "O";
+      playerTurn--;
+    }
+    else
+    {
+      std::cout << "That cell is already taken!\n";
+    }
     break;
   case 7:
-    board[2][0] = "O";
-    playerTurn--;
+    if (board[2][0] != "X" && board[2][0] != "O")
+    {
+      board[2][0] = "O";
+      playerTurn--;
+    }
+    else
+    {
+      std::cout << "That cell is already taken!\n";
+    }
     break;
   case 8:
-    board[2][1] = "O";
-    playerTurn--;
+    if (board[2][1] != "X" && board[2][1] != "O")
+    {
+      board[2][1] = "O";
+      playerTurn--;
+    }
+    else
+    {
+      std::cout << "That cell is already taken!\n";
+    }
     break;
   case 9:
-    board[2][2] = "O";
-    playerTurn--;
+    if (board[2][2] != "X" && board[2][2] != "O")
+    {
+      board[2][2] = "O";
+      playerTurn--;
+    }
+    else
+    {
+      std::cout << "That cell is already taken!\n";
+    }
     break;
   default:
     std::cout << "Invalid input\n";
