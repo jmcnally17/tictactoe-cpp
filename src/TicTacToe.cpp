@@ -18,5 +18,10 @@ int main()
       std::cout << "You win!\n";
       break;
     }
+    else if (hasBoardBeenFilled(board))
+    {
+      std::cout << "It's a draw!\n";
+      break;
+    }
   }
 }
