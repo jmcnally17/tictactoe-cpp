@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/TicTacToe.h"
+#include "../include/tictactoe.h"
 
 int main()
 {

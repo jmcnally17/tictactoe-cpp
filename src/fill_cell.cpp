@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/FillCell.h"
+#include "../include/fill_cell.h"
 
 void fillCell(std::string board[3][3], int a, int b, int &playerTurn)
 {

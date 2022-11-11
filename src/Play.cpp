@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/Play.h"
+#include "../include/play.h"
 
 void play(std::string board[3][3])
 {

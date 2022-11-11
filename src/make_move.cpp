@@ -1,9 +1,9 @@
 #include <iostream>
-#include "../include/MakeMove.h"
+#include "../include/make_move.h"
 
 void makeMove(std::string board[3][3], int &playerTurn)
 {
-  askPlayerToMove(playerTurn);
+  askToMove(playerTurn);
   std::string cell;
   std::cin >> cell;
   if (cell == "1")

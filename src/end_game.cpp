@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/EndGame.h"
+#include "../include/end_game.h"
 
 void endGame(int (*func)())
 {

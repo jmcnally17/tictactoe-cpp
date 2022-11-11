@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/CheckIfCellIsValid.h"
+#include "../include/check_if_cell_is_valid.h"
 
 void checkIfCellIsValid(std::string board[3][3], int a, int b, int &playerTurn)
 {
