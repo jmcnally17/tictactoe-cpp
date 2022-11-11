@@ -1,6 +1,6 @@
 #include <iostream>
 
-void declareWinner(int playerTurn)
+void declareWinner(int playerTurn, std::ostream &os = std::cout)
 {
-  std::cout << "\nPlayer " << ((playerTurn == 1) ? "2" : "1") << " wins!\n";
+  os << "\nPlayer " << ((playerTurn == 1) ? "2" : "1") << " wins!\n";
 }
