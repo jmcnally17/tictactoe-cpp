@@ -1,6 +1,6 @@
 #include <iostream>
 
-void askToMove(int playerTurn)
+void askToMove(int playerTurn, std::ostream &os = std::cout)
 {
-  std::cout << "\nPlayer " << ((playerTurn == 1) ? "1" : "2") << ", please pick a cell from 1 to 9:\n";
+  os << "\nPlayer " << ((playerTurn == 1) ? "1" : "2") << ", please pick a cell from 1 to 9:\n";
 }
