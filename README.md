@@ -32,4 +32,6 @@ and the game should run in your terminal.
 
 ## Testing
 
-I'm currently looking at getting a testing framework set up.
+So far, tests have been written using [doctest](https://github.com/doctest/doctest) for three functions. These tests can be run by executing the \_test.out file for that corresponding function.
+
+I have been unable to follow TDD as this is my first experience setting up any testing framework in C++.
