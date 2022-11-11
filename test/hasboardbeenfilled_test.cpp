@@ -7,3 +7,9 @@ TEST_CASE("hasBoardBeenFilled returns true when all the cells are longer their o
   std::string board[3][3] = {{"X", "O", "O"}, {"O", "X", "X"}, {"X", "X", "O"}};
   CHECK(hasBoardBeenFilled(board) == true);
 }
+
+TEST_CASE("hasBoardBeenFilled returns false when at least one of the cells are still their original number")
+{
+  std::string board[3][3] = {{"1", "O", "O"}, {"O", "5", "X"}, {"X", "X", "9"}};
+  CHECK(hasBoardBeenFilled(board) == false);
+}
