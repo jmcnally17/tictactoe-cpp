@@ -34,6 +34,6 @@ and the game should run in your terminal.
 
 ## Testing
 
-So far, tests have been written using [doctest](https://github.com/doctest/doctest) for five functions. These tests can be run by executing the `_test.out` file found in the [test](https://github.com/jmcnally17/tic-tac-toe/tree/main/test) folder for that corresponding function.
+So far, tests have been written using [doctest](https://github.com/doctest/doctest) for six functions. These tests can be run by executing the `_test.out` file found in the [test](https://github.com/jmcnally17/tic-tac-toe/tree/main/test) folder for that corresponding function.
 
 I have been unable to strictly follow TDD as this is my first experience setting up any testing framework in C++.
