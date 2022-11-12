@@ -9,7 +9,6 @@ void mockFillCellX(std::string board[3][3], int a, int b, int &playerTurn)
 {
   result = "fillCellX has been called";
 }
-
 void mockFillCellO(std::string board[3][3], int a, int b, int &playerTurn)
 {
   result = "fillCellO has been called";
