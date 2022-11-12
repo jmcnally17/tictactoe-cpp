@@ -1,6 +1,6 @@
 # Tic-Tac-Toe <img src="./images/tictactoe.png" width=60>
 
-This project is a recreation of the game tic-tac-toe in C++ that can be run in the terminal. I have structured the folder directory in accordance with what I have researched about standard practice for C++ projects. The [src](https://github.com/jmcnally17/tic-tac-toe/tree/main/src) folder contains all .cpp files while the [include](https://github.com/jmcnally17/tic-tac-toe/tree/main/include) folder contains all my header files. Finally, the [bin](https://github.com/jmcnally17/tic-tac-toe/tree/main/bin) folder contains the executable [tictactoe.out](https://github.com/jmcnally17/tic-tac-toe/blob/main/bin/tictactoe.out) file.
+This project is a recreation of the game tic-tac-toe in C++ that can be run in the terminal. I have structured the folder directory in accordance with what I have researched about standard practice for C++ projects. The [src](https://github.com/jmcnally17/tic-tac-toe/tree/main/src) folder contains all .cpp files while the [include](https://github.com/jmcnally17/tic-tac-toe/tree/main/include) folder contains all my header files. Finally, the [bin](https://github.com/jmcnally17/tic-tac-toe/tree/main/bin) folder contains the executable [tictactoe.out](https://github.com/jmcnally17/tic-tac-toe/blob/main/bin/tictactoe.out) file while the [test](https://github.com/jmcnally17/tic-tac-toe/tree/main/test) folder contains all relevant test files.
 
 This project has been designed with OOP principles, with great focus being applied to SRP from SOLID.
 
